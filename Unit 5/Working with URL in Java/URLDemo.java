@@ -1,0 +1,11 @@
+import java.net.*;
+
+public class URLDemo {
+    public static void main(String[] args) throws Exception {
+        URL url = new URL("https://www.google.com");
+
+        System.out.println("Protocol: " + url.getProtocol());
+        System.out.println("Host: " + url.getHost());
+        System.out.println("File: " + url.getFile());
+    }
+}
